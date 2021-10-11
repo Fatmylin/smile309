@@ -1,0 +1,29 @@
+#Allow Google Media Partners bot
+User-agent: Mediapartners-Google
+Disallow:
+Sitemap:http://www.smile309.com/sitemap.xml
+ 
+#Block the bad bots
+User-agent: ia_archiver
+Disallow: /
+ 
+User-agent: VoilaBot
+Disallow: /
+ 
+User-agent: Baiduspider
+Disallow: /
+ 
+User-agent: MJ12bot
+Disallow: /
+ 
+User-agent: BecomeJPBot
+Disallow: /
+ 
+User-agent: Exabot
+Disallow: /
+ 
+User-agent: 008
+Disallow: /	
+ 
+User-agent: Sosospider
+Disallow: /

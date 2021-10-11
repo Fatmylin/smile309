@@ -1,0 +1,24 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="colorbox.css">
+</head>
+<body>
+<button>Show lightbox</button>
+
+<div id="pic">
+	<img class="roompic" width="300"  src="http://i.imgur.com/DacslGO.jpg"/>
+	<img class="roompic" width="300"  src="http://i.imgur.com/DacslGO.jpg"/>
+</div>
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="jquery.colorbox.js"></script>
+<script type="text/javascript">
+(function(){
+
+    $('#pic').find('roompic').colorbox({rel:'gal'});
+	$('button').on('click', function(){
+		$('#pic').find('roompic').colorbox({rel:'gal'});
+	});
+})();
+</script>
+</body>
+</html>

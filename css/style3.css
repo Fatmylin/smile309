@@ -1,0 +1,623 @@
+* {
+  position: relative;
+}
+
+.colorA {
+  color: #F09086;
+}
+
+.colorB {
+  color: #93A5D2;
+}
+
+.colorC {
+  color: #6CACF0;
+}
+
+.container {
+  padding: 0px;
+  background-size: 60%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  max-width: 1024px;
+  font-size: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  position:absolute;
+  left:50%;
+  bottom:100px;  
+  text-align: center;
+}
+
+.button > a {
+  text-align: center;
+  font-size: 25px;
+  width: 100px;
+  height: 50px;
+  color: #707177;
+  font-weight: bold;
+}
+
+hr {
+  border-top: solid 4px;
+  color: #707177;
+  width: 70%;
+}
+
+.title {
+  width: 100%;
+  font-size: 45px;
+  color: #707177;
+  font-weight: 900;
+  top: 70px;
+  margin-bottom: 100px;
+}
+
+
+
+.title2 {
+  display:inline-block;
+  width: 50%;
+  font-size: 45px;
+  font-weight: 900;
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+}
+
+.border2{ 
+    text-align: center;
+    border-radius: 25px;
+	left: 30%;
+	width: 210px;
+	border: solid 3px #707177;
+	background-color: white;
+}
+
+.border2:hover {
+	cursor: pointer;
+
+}
+
+.border{ 
+    text-align: center;
+    border-radius: 25px;
+	left: 40%;
+	width: 210px;
+	border: solid 3px #707177;
+}
+
+.room {
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  background-color: #707177;
+}
+
+.menu {
+  padding: 0;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  top: -20px;
+}
+
+.menu > li {
+  top: 23px;	
+  font-size: 20px;
+  display: inline-block;
+  left: 20%;
+  font-weight: bold;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding-left: 6px;
+}
+
+a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+
+.icon {
+  width: 30%;
+  min-width: 200px;
+  -webkit-transition-duration: 5s;
+          transition-duration: 5s;
+}
+
+.icon2 {
+  top: 20px;	
+  left: -40%;
+  width: 200px;
+  min-width: 150px;
+}
+
+.banner {
+  height: initial;
+  background-image: url("http://i.imgur.com/xakrNxc.png");
+  background-size: cover;
+}
+
+.icon {
+  width: 100%;
+  min-width: 200px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.Room {
+  height: 400px;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.seriea {
+  width: 100%;
+}
+
+.serie {
+  width: 100%;
+}
+
+.seriec {
+  width: 100%;
+}
+
+.serienameA {
+  font-weight: 900;
+  top: 50px;
+  margin-bottom:100px;
+  width: 100%;
+  text-align: left;
+}
+
+.serienameA > hr {
+  position: relative;
+  border-top: 3px solid #F09086;
+  top: -20px;
+  width: 100%;
+}
+
+.serienameA > h1 {
+  font-size: 100px;
+  font-weight: 900;
+  color: #F09086;
+}
+
+.serienameA > h4 {
+  font-weight: bold;
+  color: #F09086;
+}
+
+.serienameB {
+  font-weight: 900;
+  top: 20px;
+  width: 100%;
+  text-align: left;
+}
+
+.serienameB > hr {
+  position: relative;
+  border-top: 3px solid #93A5D2;
+  top: -20px;
+  width: 100%;
+}
+
+.serienameB > h1 {
+  font-size: 100px;
+  font-weight: 900;
+  color: #93A5D2;
+}
+
+.serienameB > h4 {
+  font-weight: bold;
+  color: #93A5D2;
+}
+
+.serienameC {
+  font-weight: 900;
+  top: 50px;
+  width: 100%;
+  text-align: left;
+}
+
+.serienameC > hr {
+  position: relative;
+  border-top: 3px solid #6CACF0;
+  top: -20px;
+  width: 100%;
+}
+
+.serienameC > h1 {
+  font-size: 100px;
+  font-weight: 900;
+  color: #6CACF0;
+}
+
+.serienameC > h4 {
+  font-weight: bold;
+  color: #6CACF0;
+}
+
+.w {
+  display: inline-block;
+}
+
+ul {
+  color: #707177;
+  text-align: left;
+  top: 50px;
+  left: 2%;
+}
+
+.text > ul {
+  left: 4%;
+}
+
+li {
+  padding: 2px;
+}
+
+.text {
+  padding-right: 60px;	
+  top: -50px;	
+  text-align: center;
+  width: 50%;
+  margin-bottom:80px;
+}
+
+.text > h2 {
+  font-weight: bold;
+  text-align: left;
+  left: 40px;
+}
+
+.photo {
+  margin-top:100px;
+  height: 380px;
+  border: solid 3px;
+  width: 50%;
+  overflow:hidden;
+}
+
+.colorAb {
+  border: solid 8px #F09086;
+}
+
+.colorBb {
+  border: solid 8px #93A5D2;
+}
+
+.colorCb {
+  border: solid 8px #6CACF0;
+}
+
+.call {
+  transform:scaleX(-1);	
+  height: 150px;
+  width: 150px;
+  position: fixed;
+  bottom: 2%;
+  right: 3%;
+  transition-duration: 1s;
+  opacity: 0;
+  display: none; 
+}
+
+.call:hover {
+	cursor: pointer;
+
+}
+
+ .index{
+	 display: none;
+ }
+ 
+ .number{
+	 height: 200px;
+	 width: 200px;
+	 position: fixed;
+	 transition-duration: 1s;
+	 opacity: 0;
+	 bottom: 6%;
+	 right: 33%;
+	 display: none; 
+
+ }
+
+.group {
+ left: -6px;	
+ top: -30px;
+	
+}
+
+#Barside {
+	display: none; 
+}
+
+
+.play{
+	transition-duration: 1.5s;
+	opacity:0;
+}
+
+.eat{
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	opacity:0;
+	transition-duration: 1.5s;
+}
+
+.colorAA{
+	color:white;
+	border-color:#FF422F;
+	background-color:#FF422F;
+}
+
+.colorBB{
+	color:white;
+	border-color:#067DF9;
+	background-color:#067DF9;
+}
+
+ .visible{
+	display: initial; 
+	opacity: 1;
+}
+
+ .visible2{ 
+	opacity: 1;
+}
+@media screen and (max-width: 1000px) {
+	
+	
+		.banner {
+	  top:150px;
+	}
+	
+	.container {
+		top:150px;
+		width: 80%;
+}	
+	
+		*{
+		font-size: 1.5rem;
+	}
+	.nav {
+	  position: fixed;
+	  top: 0px;
+	  width: 100%;
+	  height: 150px;
+	  background-color: #707177;
+	}
+
+	
+  .icon2 {
+  position:relative;	  
+  transform:scale(1.5,1.5);	  
+  top: 40px;	  
+  left: 50px;	  	  
+  width: 400px;
+  min-width: 150px;
+}	
+
+  .menu{
+	position: relative;  
+    
+  }
+  
+   .menu > li{
+	top: 50px;   
+	display: none; 
+  }
+	
+  .call {
+  transform:scale(-1.5,1.5);  
+  bottom: 4%;
+  right: 10%;
+  }
+  
+  .menu > li {
+    left: 8%;
+  }
+
+  .icon2 {
+    left: -90%;
+    width: 200px;
+    min-width: 150px;
+  }
+
+  
+  .text {
+    width: 100%;
+	margin-top: 150px;
+  }
+
+  .photo {
+	height: 480px;  
+    width: 100%;
+	border-width: 20px;
+  }
+
+  .container {
+    background-size: 90%;
+  }
+  
+  
+  table {
+  width: 100%;
+  }
+  
+  .button > a{
+	  font-size: 80px;
+  }
+  
+  .index{
+	display: initial;  
+	transform: scale(1.5,1.5);  
+	position: absolute;
+	right: -70%;
+	top: 33%;
+	cursor: pointer;
+	height: 20px;
+	width: 20px;
+
+}
+  
+  .navside{
+  
+  letter-spacing: 5px;
+  position: fixed;
+  height: 480px;
+  width: 100%;
+  top: -620px;
+  background-color: #707177;
+  color: white;
+  box-shadow: 0px 4px 15px #333;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
+  }
+  
+  #Barside {
+	  display: initial;
+  }  
+  
+  #Barside > li{
+	  font-weight: bold;
+	  border-bottom: solid 5px white;
+	  font-size: 50px;
+	  padding: 20px;
+  }
+  
+
+  
+   .number{
+	 display: none; 
+ }
+ 
+ .button {
+  position: relative;
+  left:0%;
+  bottom:10px;  
+  text-align: center;
+}
+
+.play{
+	transition-duration: 1.5s;
+	display: none;
+}
+
+.eat{
+	display: none;
+	position: absolute;
+	width: 100%;
+	top:425px;
+	left: 0%;
+	opacity:0;
+	transition-duration: 1.5s;
+}
+ .visible2{ 
+    display:initial;
+	opacity: 1;
+}
+.barside > a{
+	padding:10px;
+	font-size:2rem;
+
+}
+.border {
+	left:34%;
+	border-width:8px;
+	width:300px;
+	font-weight:900;
+	font-size: 2rem;
+}
+
+.serienameA {
+  margin-bottom:0px;
+}
+
+.serienameA > hr {
+  border-top: 15px solid #F09086;
+}
+
+.serienameB > hr {
+  border-top: 15px solid #93A5D2;
+}
+
+.serienameB  {
+  margin-top: 15px;
+}
+.serienameC > hr {
+
+  border-top: 15px solid #6CACF0;
+
+}
+  
+}
+
+.flip-in-ver-right {
+  -webkit-animation: flip-in-ver-right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: flip-in-ver-right 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2017-7-21 20:33:13
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+/**
+ * ----------------------------------------
+ * animation flip-in-ver-right
+ * ----------------------------------------
+ */
+@-webkit-keyframes flip-in-ver-right {
+  0% {
+    -webkit-transform: rotateY(-80deg);
+    transform: rotateY(-80deg);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: rotateY(-40);
+    transform: rotateY(-40);
+    opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    opacity: 1;
+  }
+}
+@keyframes flip-in-ver-right {
+  0% {
+    -webkit-transform: rotateY(-80deg);
+    transform: rotateY(-80deg);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+    opacity: 1;
+  }
+}
+
+
