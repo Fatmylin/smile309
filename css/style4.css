@@ -123,7 +123,6 @@ a:hover {
 .banner {
   height: initial;
   background-image: url("http://i.imgur.com/xakrNxc.png");
-  background-size: cover;
 }
 
 .icon {

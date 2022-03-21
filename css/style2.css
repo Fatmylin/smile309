@@ -62,8 +62,8 @@ hr {
 .border{ 
     text-align: center;
     border-radius: 25px;
-	left: 40%;
-	width: 210px;
+	left: 38%;
+	width: 270px;
 	border: solid 3px #707177;
 }
 
@@ -124,7 +124,6 @@ a:hover {
 .banner {
   height: initial;
   background-image: url("http://i.imgur.com/xakrNxc.png");
-  background-size: cover;
 }
 
 .icon {
